@@ -1,20 +1,55 @@
 .item {
   margin: 8px 0 16px 8px;
   padding: 4px;
-  /* width: fit-content; */
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.3);
   line-height: 8px;
+
+  display: grid;
+  grid-template-areas:
+    "u l"
+    "a t";
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr 8fr;
+  grid-gap: 4px;
 }
 
-.avatar {
-  height: 64px;
+.username {
+  grid-area: u;
+  margin-top: 8px;
+  text-align: center;
 }
 
-.text {
-  display: inline;
+.like_count {
+  float: right;
+  margin: 4px 4px 0 0;
+  font-size: small;
 }
 
 .like_btn {
+  margin: 4px 4px 0 0;
+  grid-area: l;
+}
+
+.avatar {
   width: fit-content;
+  grid-area: a;
+  padding: 8px;
+}
+
+.avatar_img {
+  width: 100%;
+  box-shadow: 0 0 10px #000;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.text {
+  /* display: inline; */
+  line-height: 24px;
+  grid-area: t;
+}
+
+.like_btn_img {
   float: right;
+  height: 16px;
 }
