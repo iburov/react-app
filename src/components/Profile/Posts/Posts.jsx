@@ -19,10 +19,16 @@ const Posts = () => {
         like_count="666"
       />
       <Post
-        username="Jeppa"
+        username="Banana"
         img="https://d2ph5fj80uercy.cloudfront.net/01/cat3149.jpg"
         text=":3"
         like_count="9999999"
+      />
+      <Post
+        username="Admin"
+        img="https://picsum.photos/90/90"
+        text="React forever"
+        like_count="0"
       />
     </div>
   );
