@@ -30,14 +30,3 @@
   padding: 0;
   margin: 0;
 }
-
-.posts {
-  margin: 8px 0 0 8px;
-}
-
-.item {
-  margin: 8px 0 16px 8px;
-  padding: 8px;
-  width: fit-content;
-  background: rgba(0, 0, 0, 0.3);
-}
