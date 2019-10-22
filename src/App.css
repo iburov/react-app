@@ -3,52 +3,15 @@
   grid-template-areas:
     "h h"
     "n c";
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  grid-gap: 8px;
   color: #fff;
   margin: 0 auto;
   width: 1200px;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
   text-decoration: none;
-  font-weight: 500;
-  color: #61dbfb;
-}
-
-a:hover {
-  padding-left: 10px;
-}
-
-.header {
-  grid-area: h;
-  background-color: #051729;
-}
-
-.logo {
-  height: 100%;
-}
-
-.nav {
-  grid-area: n;
-  background-color: #0a2b4d;
-}
-
-.content {
-  grid-area: c;
-  background-color: #1a94ce;
-  position: relative;
-}
-
-.cover {
-  width: 100%;
-  position: relative;
-}
-
-.avatar {
-  width: 254px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
 }

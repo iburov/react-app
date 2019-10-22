@@ -1,0 +1,43 @@
+.content {
+  grid-area: c;
+  background-color: #1a94ce;
+  position: relative;
+}
+
+.cover {
+  width: 100%;
+  position: relative;
+}
+
+.avatar {
+  width: 254px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 0 0 10px #000;
+}
+
+.information {
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.information_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.posts {
+  margin: 8px 0 0 8px;
+}
+
+.item {
+  margin: 8px 0 16px 8px;
+  padding: 8px;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.3);
+}

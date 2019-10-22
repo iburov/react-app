@@ -1,13 +1,15 @@
 import React from "react";
+import c from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header className="header">
+    <div className={c.header}>
       <img
         src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
-        className="logo"
+        className={c.logo}
       />
-    </header>
+      <div className={c.title}>Learning react</div>
+    </div>
   );
 };
 

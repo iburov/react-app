@@ -1,0 +1,15 @@
+.header {
+  grid-area: h;
+  background-color: #051729;
+  padding: 10px;
+}
+
+.logo {
+  height: 64px;
+}
+
+.title {
+  margin-left: 16px;
+  display: inline;
+  font-size: 48px;
+}
