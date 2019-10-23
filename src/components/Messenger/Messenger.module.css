@@ -9,6 +9,14 @@
 
 .dialogs_items .active {
   background: rgba(255, 255, 255, 0.3);
+  margin-left: -18px;
+  padding: 8px 8px 8px 20px;
+}
+
+.dialog a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: -18px;
+  padding: 8px 8px 8px 20px;
 }
 
 .dialog {

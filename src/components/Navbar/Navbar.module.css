@@ -10,12 +10,14 @@
 }
 
 .item a:hover {
-  padding-left: 10px;
   color: #00ffff;
+  padding-left: 10px;
   border-left: 1px solid #00ffff;
   cursor: pointer;
 }
 
-.active {
+nav .active {
   color: #00ffff;
+  padding-left: 10px;
+  border-left: 1px solid #00ffff;
 }

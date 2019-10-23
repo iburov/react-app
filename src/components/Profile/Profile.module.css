@@ -1,26 +1,3 @@
-.cover {
-  width: 100%;
-  position: relative;
-}
-
-.avatar {
-  width: 254px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  box-shadow: 0 0 10px #000;
-}
-
-.information {
-  position: absolute;
-  top: 40px;
-  left: 300px;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 10px;
-}
-
-.information_list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+a {
+  color: #fff;
 }

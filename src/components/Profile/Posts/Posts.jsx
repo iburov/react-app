@@ -5,7 +5,14 @@ import c from "./Posts.module.css";
 const Posts = props => {
   return (
     <div className={c.posts}>
-      POSTS
+      <h2>POSTS</h2>
+      <div>
+        <textarea></textarea>
+      </div>
+      <div>
+        <input type="button" value="Submit" />
+      </div>
+      <hr />
       <Post
         username="Odduone"
         img="https://vignette.wikia.nocookie.net/the-forest-survivor/images/e/e5/NatureGuideDandelion.png/revision/latest?cb=20190922115016&path-prefix=ru"
