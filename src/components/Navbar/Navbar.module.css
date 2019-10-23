@@ -4,25 +4,18 @@
   padding: 10px;
 }
 
-a {
+.item a {
   color: #fff;
-}
-
-.item {
   font-size: 20px;
-  color: white;
 }
 
-.item:hover {
+.item a:hover {
   padding-left: 10px;
-  border-left: 1px solid #fff;
+  color: #00ffff;
+  border-left: 1px solid #00ffff;
   cursor: pointer;
 }
 
 .active {
   color: #00ffff;
-}
-
-.active:hover {
-  border-left: 1px solid #00ffff;
 }
