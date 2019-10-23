@@ -2,15 +2,15 @@ import React from "react";
 import c from "./Messenger.module.css";
 import { NavLink } from "react-router-dom";
 
-let dialogs = [
-  { userid: 1, name: "Ivan" },
-  { userid: 2, name: "Marina" },
-  { userid: 3, name: "Maxim" },
-  { userid: 4, name: "Julia" },
-  { userid: 5, name: "Alex" }
+let dialogsData = [
+  { id: 1, name: "Ivan" },
+  { id: 2, name: "Marina" },
+  { id: 3, name: "Maxim" },
+  { id: 4, name: "Julia" },
+  { id: 5, name: "Alex" }
 ];
 
-let messages = [
+let messagesData = [
   { id: 1, text: "Hi!" },
   {
     id: 2,
@@ -24,7 +24,7 @@ let messages = [
 ];
 
 const Dialog = props => {
-  let path = "/messenger/" + props.userid;
+  let path = "/messenger/" + props.id;
 
   return (
     <div className={c.dialog}>
@@ -39,19 +39,17 @@ const Message = props => {
   return <div className={c.message}>{props.message}</div>;
 };
 
+let dialogs = dialogsData.map(d => <Dialog id={d.id} name={d.name} />);
+
+let messages = messagesData.map(m => (
+  <Message id={matchMedia.id} message={m.text} />
+));
+
 const Messenger = props => {
   return (
     <div className={c.dialogs}>
-      <div className={c.dialogs_items}>
-        {dialogs.map(dialog => {
-          return <Dialog userid={dialog.userid} name={dialog.name} />;
-        })}
-      </div>
-      <div className={c.messages}>
-        {messages.map(message => {
-          return <Message id={message.id} message={message.text} />;
-        })}
-      </div>
+      <div className={c.dialogs_items}>{dialogs}</div>
+      <div className={c.messages}>{messages}</div>
     </div>
   );
 };

@@ -27,6 +27,16 @@ let postsData = [
   }
 ];
 
+let posts = postsData.map(p => (
+  <Post
+    id={p.id}
+    username={p.username}
+    img={p.img}
+    text={p.text}
+    like_count={p.like_count}
+  />
+));
+
 const Posts = props => {
   return (
     <div className={c.postsData}>
@@ -38,17 +48,7 @@ const Posts = props => {
         <input type="button" value="Submit" />
       </div>
       <hr />
-      {postsData.map(post => {
-        return (
-          <Post
-            id={post.id}
-            username={post.username}
-            img={post.img}
-            text={post.text}
-            like_count={post.like_count}
-          />
-        );
-      })}
+      {posts}
     </div>
   );
 };
