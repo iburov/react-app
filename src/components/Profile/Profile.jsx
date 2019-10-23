@@ -4,7 +4,7 @@ import c from "./Profile.module.css";
 
 const Profile = Props => {
   return (
-    <div className={c.content}>
+    <div>
       <div>
         <img
           src="https://images.squarespace-cdn.com/content/v1/5630e470e4b07269a3528caf/1487616583171-J0QBV91W2VR3JP9MM0WT/ke17ZwdGBToddI8pDm48kMdCl4L8uzEwzG0e4ogPUWcUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dpHl-dCcz5B8qmoh6qRuwaG4uPO4bCLZ-9mqhaf9CXPXZtJ3qR9G2BYeA0wOAaeYNg/how-long-scotland-header.jpg?format=1500w"

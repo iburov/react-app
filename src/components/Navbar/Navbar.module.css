@@ -4,6 +4,10 @@
   padding: 10px;
 }
 
+a {
+  color: #fff;
+}
+
 .item {
   font-size: 20px;
   color: white;
