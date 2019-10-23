@@ -12,6 +12,12 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.wrapper_content {
+  grid-area: c;
+  background-color: #1a94ce;
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Post from "./Post/Post";
 import c from "./Posts.module.css";
 
-const Posts = () => {
+const Posts = props => {
   return (
     <div className={c.posts}>
       POSTS
