@@ -1,0 +1,23 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+
+.dialogs_items {
+  padding: 10px;
+}
+
+.dialogs_items .active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dialog {
+  padding: 8px;
+}
+
+.messages {
+  padding: 10px;
+}
+
+.message {
+}
